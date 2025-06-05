@@ -7,10 +7,6 @@ jobs:
   visualize:
     runs-on: ubuntu-latest
     steps:
-      - name: setup node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20.x'
       - name: Repo visualizer
         uses: githubocto/repo-visualizer@0.9.1
         with:
