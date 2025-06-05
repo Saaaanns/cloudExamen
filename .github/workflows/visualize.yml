@@ -1,0 +1,11 @@
+name: visualize
+on:
+  push:
+    branches:
+    - main
+jobs:
+  visualize-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: repo visualizer
+        uses: actions/visualize@v3
