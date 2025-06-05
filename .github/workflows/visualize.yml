@@ -10,5 +10,4 @@ jobs:
       - name: Repo visualizer
         uses: githubocto/repo-visualizer@0.9.1
         with:
-          commit_message: default
           artifact_name: diagram
